@@ -6,7 +6,7 @@ import subprocess
 from random import choice, getrandbits
 from pathlib import Path
 
-res_path = Path(os.path.dirname(__file__)) / 'res'
+res_path = Path(os.path.dirname(__file__)) / '../res'
 
 # 1. Lecture des données et choix d'un département au hasard
 with open(res_path / 'departements.json', encoding='utf8') as file:
