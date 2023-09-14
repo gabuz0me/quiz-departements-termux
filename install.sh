@@ -1,7 +1,7 @@
-#!/data/data/com.termux/files/usr/bin/sh
+#!/usr/bin/env bash
 
 echo -n "Génération des données... "
-./generator.py
+./src/generator.py
 echo "Fait !"
 
 dir=$(pwd)
@@ -15,5 +15,5 @@ cd $shortcuts_dir
 touch $quiz_name
 chmod +x $quiz_name
 
-echo $dir/src/quiz.py > $quiz_name
+echo python $dir/src/quiz.py > $quiz_name
 echo "Fait !"
