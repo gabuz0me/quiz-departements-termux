@@ -7,6 +7,11 @@ from pathlib import Path
 
 res_path = Path(os.path.dirname(__file__)) / '../res'
 
+# On ne veut pas réécrire le fichier s'il existe déjà,
+# ça supprimerait les trivias en plus...
+if (os.path.exists(res_path/"departements.json")):
+    exit()
+
 departements = {}
 
 # Prefectures.csv est un copié-collé du tableau de la page
