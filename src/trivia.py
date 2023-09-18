@@ -24,10 +24,13 @@ if not cle in departements:
 
 departement = departements[cle]
 nom = departement['nom']
+numero = cle
+if len(numero) == 1:
+    numero = '0' + numero
 hint_trivia = departement.get('trivia', 'Écrivez ici une aide concernant ce département')
 
 # Écriture si trivia donné
-code, texte = widgets.getTextValue(f"Trivia sur {nom} ({cle})", hint_trivia)
+code, texte = widgets.getTextValue(f"Trivia sur {nom} ({numero})", hint_trivia)
 if code:
     if len(texte) == 0:
         departement.pop('trivia', None)
