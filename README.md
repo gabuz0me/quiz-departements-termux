@@ -2,6 +2,14 @@
 
 Ce projet permet à un téléphone Android sur lequel [Termux](https://termux.dev/en/) est installé de proposer des *flashcards* sur les départements français afin d'aider à la mémorisation des numéros et des préfectures.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabuz0me/images/main/quiz-departements-termux/question_nom.png" alt="Question avec nom" width="150"/>
+  <img src="https://raw.githubusercontent.com/gabuz0me/images/main/quiz-departements-termux/question_num.png" alt="Question avec numéro" width="150"/>
+  <img src="https://raw.githubusercontent.com/gabuz0me/images/main/quiz-departements-termux/reponse.png" alt="Affichage de la réponse" width="150"/>
+  <img src="https://raw.githubusercontent.com/gabuz0me/images/main/quiz-departements-termux/trivia.png" alt="Écriture d'un trivia" width="150"/>
+  <img src="https://raw.githubusercontent.com/gabuz0me/images/main/quiz-departements-termux/recherche.png" alt="Recherche d'un département" width="150"/>
+</p>
+
 ---
 
 ## Installation
